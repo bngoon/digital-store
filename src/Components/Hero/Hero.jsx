@@ -10,9 +10,9 @@ function Hero() {
         <div className="hero-left">
         <h2>NEW ARRIVALS ONLY</h2>
         <div>
-            <div className="hand-hand-icon">
-                <p>new </p>
-                <img src={hand_icon} alt="icon" />
+            <div className="hero-hand-icon">
+                <p>new 
+                <img src={hand_icon} alt="icon" /></p>
             </div>
             <p>collections</p>
             <p>for everyone</p>
