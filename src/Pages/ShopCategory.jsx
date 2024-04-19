@@ -16,7 +16,7 @@ function ShopCategory(props) {
             <span>Showing 1-12</span> out of 36 products
           </p>
           <div className="shopcategory-sort">
-            Sort by <img src={dropdown_icon} alt="dropdown" />
+            Sort by <img src={dropdown_icon} alt="dropdown" /> 
           </div>
         </div>
         <div className="shopcategory-products">
@@ -28,6 +28,9 @@ function ShopCategory(props) {
     }
   })}
 </div>
+    <div className="shopcategory-loadmore">
+      Explore More 
+    </div>
 
     </div>
   )
