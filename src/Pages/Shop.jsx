@@ -2,6 +2,8 @@ import React from 'react'
 import "./shop.css";
 import Hero from '../Components/Hero/Hero';
 import Popular from '../Components/Popular/Popular';
+import Offers from '../Components/Offers/Offers';
+import NewCollections from '../Components/NewCollections/NewCollections';
 
 
 function Shop() {
@@ -9,6 +11,8 @@ function Shop() {
     <div>
         <Hero/>
         <Popular/>
+        <Offers/>
+        <NewCollections/>
     </div>
   )
 }
