@@ -1,4 +1,6 @@
-import React from 'react'
+import React from 'react';
+import './CSS/LoginSignup.css';
+
 
 function LoginSignup() {
   return (
